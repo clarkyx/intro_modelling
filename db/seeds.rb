@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+#Customer.destory_all
+#Order.destory_all
+
+e1 = Customer.create([{email: 'this@gmail.com'}, {mailing_address: '192@'}, {name: 'clark'}])
+e2 = Order.create([{customer_id: 1}, {order_number: 1}, {date: 19900901}])
